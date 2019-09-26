@@ -12,9 +12,26 @@
      h2{text-indent: 1.5em;
        background: linear-gradient(to right, rgb(195, 215, 15), gray);
    }
+   h3{text-indent: 1.5em;
+     background: linear-gradient(to right, gray, rgb(205, 237, 226));
+ }
      p{color:blue;
-     outline:red dotted thick;
    }
+   body{
+     background: rgb(245, 254, 222);
+   }
+
+      .left {
+        float: left;
+        width: 54%;
+        background-color: rgb(234, 244, 244);
+      }
+      .right {
+        float: right;
+        width: 44%;
+        background-color: rgb(254, 237, 226);
+      }
+
   </style>
 
 
@@ -33,6 +50,17 @@
 
       <HR style="border:6" width="100%" SIZE=6 COLOR=black>
 
+<div class="right">
+      <h3>
+          GitFlow
+      </h3>
+      <div>
+          The advantage of GitFlow is that it makes parallel development very easy by isolating new development from the work done. The new development is done in the feature branch and is merged back into the code body only when the developer satisfaction code can be published.
+      </div>
+
+</div>
+
+<div class="left">
     <h2>
         Repository
     </h2>
@@ -144,5 +172,8 @@
     </p>
 
         <HR style="border:1" width="100%" SIZE=4 COLOR=gray>
+</div>
+
+
 </body>
 </html>
