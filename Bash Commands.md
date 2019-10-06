@@ -25,8 +25,18 @@ $ cd projectFolder
 ------
 
 1. What is it?
+    * mkdir stands for make directory
 2. Why do you do it?
+    * You use mkdir to create directories in your filesystem.
 3. How do you do it?
+    * You use mkdir by typing mkdir followed by the name of the directory you want to create
+
+### Examples
+
+```bash
+$ mkdir newFolder
+$ mkdir ../secondNewFolder
+```
 
 ## cp
 
