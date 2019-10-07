@@ -61,3 +61,11 @@
 #### The common use of checkout is to switch the working branch.
 
 ------
+
+## Remote Add / Remove / Show
+
+#### The git remote show command plus the host name allows you to view the details of the host.
+#### The git remote add command is used to add a remote host.
+#### The git remote rm command is used to delete a remote host.
+
+------
