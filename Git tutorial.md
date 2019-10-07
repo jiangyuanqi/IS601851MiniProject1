@@ -69,3 +69,9 @@
 #### The git remote rm command is used to delete a remote host.
 
 ------
+
+## Status
+
+#### Git status can be used to view the status of the repository
+
+------
