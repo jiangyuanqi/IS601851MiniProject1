@@ -10,6 +10,12 @@
 
 ## Repository
 
-### A repository is a place Git stores all of your project files.
+#### A repository is a place Git stores all of your project files.
+
+------
+
+## Clone
+
+#### The clone action actually contains three jobs: download the library to the local, create 'origin' remote and point to the clone url for subsequent push, checkout initial branch.
 
 ------
