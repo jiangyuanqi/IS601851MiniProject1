@@ -15,9 +15,9 @@
 ### Examples
 
 ```bash
-$ cd /mnt
-$ cd ../
-$ cd projectFolder
+$ cd /mnt #changes the working directory to /mnt
+$ cd ../ #changes the working directory to the parent of the working directory
+$ cd projectFolder #changes the working directory to a folder name projectFolder located inside the working directory
 ```
 
 ## mkdir
@@ -34,8 +34,8 @@ $ cd projectFolder
 ### Examples
 
 ```bash
-$ mkdir newFolder
-$ mkdir ../secondNewFolder
+$ mkdir newFolder #creates a folder in the working directory called newFolder
+$ mkdir ../secondNewFolder #creates a folder in the parent of the working directory called secondNewFolder
 ```
 
 ## cp
@@ -47,15 +47,15 @@ $ mkdir ../secondNewFolder
 2. Why do you do it?
     * You use cp to copy files and directories within your filesystem.
 3. How do you do it?
-    * You use cp by typing cp followed by the name of the file/directory you want to copy followed by the destination. If you are moving a directory, be sure to use the -r flag to copy recursively. You can also choose to give the file/directory a new name in it's destination by making the basename of the destination the new name.
+    * You use cp by typing cp followed by the name of the file/directory you want to copy followed by the destination. If you are copying a directory, be sure to use the -r flag to copy recursively. You can also choose to give the file/directory a new name in it's destination by making the basename of the destination the new name.
 
 ### Examples
 
 ```bash
-$ cp oldFile /bin/
-$ cp oldFile /bin/newFileName
-$ cp -r oldDirectory /bin/
-$ cp -r oldDirectory /bin/newDirectoryName
+$ cp oldFile /bin/  #copies oldFile into /bin/
+$ cp oldFile /bin/newFileName  #copies oldFile into /bin/ and renames it to newFileName
+$ cp -r oldDirectory /bin/  #copies oldDirectory into /bin/
+$ cp -r oldDirectory /bin/newDirectoryName   #copies oldDirectory into /bin/ and renames it to newFileName
 ```
 
 ## pwd
@@ -72,7 +72,7 @@ $ cp -r oldDirectory /bin/newDirectoryName
 ### Examples
 
 ```bash
-$ pwd
+$ pwd #prints current directory
 ```
 
 ## mv
@@ -80,8 +80,20 @@ $ pwd
 ------
 
 1. What is it?
+    * mv stands for move
 2. Why do you do it?
+    * You use mv to move files and directories within your filesystem. You can also use it to rename files and directories by moving to the same location and changing the name
 3. How do you do it?
+    * You use mv by typing mv followed by the name of the file/directory you want to move followed by the destination. If you are moving a directory, be sure to use the -r flag to move recursively. You can also choose to give the file/directory a new name in it's destination by making the basename of the destination the new name.
+
+### Examples
+
+```bash
+$ mv oldFile /bin/  #moves oldFile into /bin/
+$ mv oldFile /bin/newFileName  #moves oldFile into /bin/ and renames it to newFileName
+$ mv -r oldDirectory /bin/  #moves oldDirectory into /bin/
+$ mv -r oldDirectory /bin/newDirectoryName   #moves oldDirectory into /bin/ and renames it to newFileName
+```
 
 ## rm
 
