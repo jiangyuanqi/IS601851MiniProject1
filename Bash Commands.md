@@ -43,8 +43,20 @@ $ mkdir ../secondNewFolder
 ------
 
 1. What is it?
+    * cp stands for copy
 2. Why do you do it?
+    * You use cp to copy files and directories within your filesystem.
 3. How do you do it?
+    * You use cp by typing cp followed by the name of the file/directory you want to copy followed by the destination. If you are moving a directory, be sure to use the -r flag to copy recursively. You can also choose to give the file/directory a new name in it's destination by making the basename of the destination the new name.
+
+### Examples
+
+```bash
+$ cp oldFile /bin/
+$ cp oldFile /bin/newFileName
+$ cp -r oldDirectory /bin/
+$ cp -r oldDirectory /bin/newDirectoryName
+```
 
 ## pwd
 
