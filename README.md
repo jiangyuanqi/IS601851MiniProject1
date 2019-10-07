@@ -1,2 +1,4 @@
 # IS601851MiniProject1
-IS-601-851 Mini Project 1
+###Samuel Carlos & Yuanqi Jiang
+###2019 Fall
+###10/6/2019
