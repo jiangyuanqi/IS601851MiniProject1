@@ -31,3 +31,9 @@
 #### After the initial commit of the database, Git creates a branch called master. Therefore, subsequent commits are added to the master branch before switching branches.
 
 ------
+
+## Merge
+
+#### Use merge to merge multiple history processes.
+
+------
