@@ -25,3 +25,9 @@
 #### The branch is to save the entire process of modifying the record. Branches after forks are not affected by other branches, so multiple modifications can be made simultaneously in the same database.
 
 ------
+
+## Master Branch
+
+#### After the initial commit of the database, Git creates a branch called master. Therefore, subsequent commits are added to the master branch before switching branches.
+
+------
