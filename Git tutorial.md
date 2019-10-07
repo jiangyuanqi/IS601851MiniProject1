@@ -43,3 +43,9 @@
 #### Execute pull to get the history of the remote database. You can merge by executing pull. At this point, if there are no conflicting changes, the merge commit is automatically created. If there is a conflict, resolve the conflict first and submit it manually.
 
 ------
+
+## Push
+
+#### Push from local database to remote database.
+
+------
