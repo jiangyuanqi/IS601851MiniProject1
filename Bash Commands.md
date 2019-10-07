@@ -63,8 +63,17 @@ $ cp -r oldDirectory /bin/newDirectoryName
 ------
 
 1. What is it?
+    * pwd stands for print working directory
 2. Why do you do it?
+    * You use pwd to print out the location you are currently in
 3. How do you do it?
+    * You use pwd by typing out the pwd on the command line
+
+### Examples
+
+```bash
+$ pwd
+```
 
 ## mv
 
