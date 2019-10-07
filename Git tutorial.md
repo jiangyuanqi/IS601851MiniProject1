@@ -55,3 +55,9 @@
 #### Fork in GitHub is the server-side code repository clone
 
 ------
+
+## checkout
+
+#### The common use of checkout is to switch the working branch.
+
+------
