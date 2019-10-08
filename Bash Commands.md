@@ -126,8 +126,24 @@ $ cd /home/YOURUSERNAME #moves to your directory, same as above command
 ## file paths in linux
 
 1. What is it?
+    * The way to navigate through all the files on your system.
 2. Why do you do it?
+    * You use file paths to organize all your files.
 3. How do you do it?
+    * A file path consists of multiple folders seperated by slashes "/". You can operate on these file paths using commands such as ls or cd.
+    * Some common file paths are:
+        * "." - current directory
+        * ".." - parent of current directory
+        * "/" - root directory
+        * "~" - home directory
+
+### Examples
+
+```bash
+$ ls .. #views parent directory
+$ cd /mnt/c/folderName #changes the working directory to /mnt/c/folderName
+$ cd ../otherFolderName #changes otherFolderName located in the aprent directory
+```
 
 ## Using the tab key to complete file paths
 
