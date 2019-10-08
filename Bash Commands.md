@@ -104,8 +104,24 @@ $ rm -r ./folder  #deletes folder and all of its contents
 ## history
 
 1. What is it?
+    * Your Bash history is a record of all the recent commands you have executed.
 2. Why do you do it?
+    * You access your history to retrieve recent commands that you might want to reuse.
 3. How do you do it?
+    * You type history. It will display a list of your recent commands with each command preceded by a number. You can then type ! followed by the number preceding the command to rerun that command.
+
+### Examples
+
+```bash
+$ cd ~ #moves to your directory
+$ ls #shows files
+$ history #prints history
+1 cd ~
+2 ls
+$ !1 #runs cd~
+$ !2 #runs ls
+```
+
 
 ## Home directory and ~
 
@@ -114,7 +130,7 @@ $ rm -r ./folder  #deletes folder and all of its contents
 2. Why do you do it?
     * You use your home directory to store any personal information or information you want your user to be able to access.
 3. How do you do it?
-    * You type "cd ~"
+    * You type "cd ~". You can use ~ as you would any other file path.
 
 ### Examples
 
