@@ -3,8 +3,6 @@
 
 ## cd
 
-------
-
 1. What is it?
     * cd stands for change directory.
 2. Why do you do it?
@@ -22,8 +20,6 @@ $ cd projectFolder #changes the working directory to a folder name projectFolder
 
 ## mkdir
 
-------
-
 1. What is it?
     * mkdir stands for make directory
 2. Why do you do it?
@@ -39,8 +35,6 @@ $ mkdir ../secondNewFolder #creates a folder in the parent of the working direct
 ```
 
 ## cp
-
-------
 
 1. What is it?
     * cp stands for copy
@@ -60,8 +54,6 @@ $ cp -r oldDirectory /bin/newDirectoryName   #copies oldDirectory into /bin/ and
 
 ## pwd
 
-------
-
 1. What is it?
     * pwd stands for print working directory
 2. Why do you do it?
@@ -76,8 +68,6 @@ $ pwd #prints current directory
 ```
 
 ## mv
-
-------
 
 1. What is it?
     * mv stands for move
@@ -97,8 +87,6 @@ $ mv -r oldDirectory /bin/newDirectoryName   #moves oldDirectory into /bin/ and 
 
 ## rm
 
-------
-
 1. What is it?
     * rm stands for remove
 2. Why do you do it?
@@ -115,15 +103,11 @@ $ rm -r ./folder  #deletes folder and all of its contents
 
 ## history
 
-------
-
 1. What is it?
 2. Why do you do it?
 3. How do you do it?
 
 ## Home directory and ~
-
-------
 
 1. What is it?
 2. Why do you do it?
@@ -131,15 +115,11 @@ $ rm -r ./folder  #deletes folder and all of its contents
 
 ## file paths in linux
 
-------
-
 1. What is it?
 2. Why do you do it?
 3. How do you do it?
 
 ## Using the tab key to complete file paths
-
-------
 
 1. What is it?
 2. Why do you do it?
@@ -147,8 +127,19 @@ $ rm -r ./folder  #deletes folder and all of its contents
 
 ## Using up and down arrow for history
 
-------
-
 1. What is it?
+    * A useful way to run recent commands.
 2. Why do you do it?
+    * You use the up and down arrows to run commands more efficiently.
 3. How do you do it?
+    * You press the up arrow to access the last command type. Additionally, you can press the down arrow to go forward in the history.
+
+### Examples
+
+```bash
+$ ls #views current directory
+$ rm file  #deletes file
+$ [up arrow] #current command is now rm file
+$ [up arrow] #current command is now ls
+$ [down arrow] #current command is now rm file
+```
