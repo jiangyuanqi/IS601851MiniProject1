@@ -122,8 +122,23 @@ $ rm -r ./folder  #deletes folder and all of its contents
 ## Using the tab key to complete file paths
 
 1. What is it?
+    * A useful way to avoid typing out long file paths.
 2. Why do you do it?
+    * You use the tab key to type file paths more efficiently.
 3. How do you do it?
+    * You start typing out the name of a file or directory. Then, you press tab. If there are multiple possibilities for files or directories that start with the characters you typed, the bash shell will display those possibilities to you. If there is only one possiblility, the bash shell will complete the file path. If there are no possibilities, nothing will happen.
+
+### Examples
+
+```bash
+$ ls #views current directory
+file1 file100 otherFile #contents of current directory
+$ rm file[tab]  #start typing file, then press tab
+file1 file100
+$ rm file1[tab]  #now, type 1, then press tab
+$ rm file100  #the bash shell will autocomplete to the only possibility: file100
+```
+
 
 ## Using up and down arrow for history
 
