@@ -147,7 +147,7 @@ $ rm file100  #the bash shell will autocomplete to the only possibility: file100
 2. Why do you do it?
     * You use the up and down arrows to run commands more efficiently.
 3. How do you do it?
-    * You press the up arrow to access the last command type. Additionally, you can press the down arrow to go forward in the history.
+    * You press the up arrow to access the previous command in history. Additionally, you can press the down arrow to go forward in the history.
 
 ### Examples
 
