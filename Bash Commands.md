@@ -110,8 +110,18 @@ $ rm -r ./folder  #deletes folder and all of its contents
 ## Home directory and ~
 
 1. What is it?
+    * The home directory is the location of your user's files. it is usually /home/YOURUSERNAME. ~ is a shortcut to your user's home directory.
 2. Why do you do it?
+    * You use your home directory to store any personal information or information you want your user to be able to access.
 3. How do you do it?
+    * You type "cd ~"
+
+### Examples
+
+```bash
+$ cd ~ #moves to your directory
+$ cd /home/YOURUSERNAME #moves to your directory, same as above command
+```
 
 ## file paths in linux
 
@@ -138,7 +148,6 @@ file1 file100
 $ rm file1[tab]  #now, type 1, then press tab
 $ rm file100  #the bash shell will autocomplete to the only possibility: file100
 ```
-
 
 ## Using up and down arrow for history
 
