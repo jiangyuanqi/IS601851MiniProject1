@@ -100,8 +100,18 @@ $ mv -r oldDirectory /bin/newDirectoryName   #moves oldDirectory into /bin/ and 
 ------
 
 1. What is it?
+    * rm stands for remove
 2. Why do you do it?
+    * You use rm to remove files and directories within your filesystem.
 3. How do you do it?
+    * You use rm by typing rm followed by the name of the file/directory you want to remove. If you are removing a directory, be sure to use the -r flag to remove recursively within the directory.
+
+### Examples
+
+```bash
+$ rm file  #deletes file
+$ rm -r ./folder  #deletes folder and all of its contents
+```
 
 ## history
 
