@@ -1,6 +1,6 @@
 # Git tutorial
 
-![Git](/images/git.PNG)
+![Git image](/images/git.PNG)
 ------
 
 ## Flow
