@@ -36,3 +36,9 @@ x | Deletes the currently selected character
 :q | Exits without saving
 :q! | Exits forcefully without saving
 :wq | Saves and exits
+
+## Insert Mode
+
+![VI Startup Screen](/images/VIInsertMode.png)
+
+When you are in command mode, you can press `i` to enter insert mode. You will know you are in insert mode because at the bottom, it will say "`-- INSERT --`" Once you are in insert mode, just type whatever text you would like to. Be aware that the characters you enter will be placed before the currently selected character. To exit insert mode, just press `Escape`.
