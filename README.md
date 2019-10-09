@@ -16,17 +16,17 @@
 
 ---------
 
-#Change log:
+Change log:
 ------
-##Feature: New images
-##@jiangyuanqi
-##jiangyuanqi committed Oct 9, 2019
-##1e280b9  
+Feature: New images
+@jiangyuanqi
+jiangyuanqi committed Oct 9, 2019
+1e280b9  
 ------
-##Fix: image
-##@jiangyuanqi
-##jiangyuanqi committed Oct 9, 2019
-##a230aa9  
+Fix: image
+@jiangyuanqi
+jiangyuanqi committed Oct 9, 2019
+a230aa9  
 ------
 Fix: image
 @jiangyuanqi
