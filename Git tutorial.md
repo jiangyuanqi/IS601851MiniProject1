@@ -2,7 +2,7 @@
 
 ------
 
-## GitFlow
+## Flow
 
 #### The advantage of GitFlow is that it makes parallel development very easy by isolating new development from the work done. The new development is done in the feature branch and is merged back into the code body only when the developer satisfaction code can be published.
 
@@ -12,16 +12,15 @@ git flow #Git-flow is a merge based solution. It doesn't rebase feature branches
 ```
 ------
 
-## Repository
-
-#### A repository is a place Git stores all of your project files.
-
-------
-
 ## Clone
 
 #### The clone action actually contains three jobs: download the library to the local, create 'origin' remote and point to the clone url for subsequent push, checkout initial branch.
 
+
+```bash
+git Clone #Download the library to the local
+
+```
 ------
 
 ## Branch
@@ -40,18 +39,30 @@ git flow #Git-flow is a merge based solution. It doesn't rebase feature branches
 
 #### Use merge to merge multiple history processes.
 
+```bash
+git Merge #Merge multiple history processes
+
+```
 ------
 
 ## Pull
 
 #### Execute pull to get the history of the remote database. You can merge by executing pull. At this point, if there are no conflicting changes, the merge commit is automatically created. If there is a conflict, resolve the conflict first and submit it manually.
 
+```bash
+git Pull #Get the history of the remote database
+
+```
 ------
 
 ## Push
 
 #### Push from local database to remote database.
 
+```bash
+git Push #Push from local database to remote database.
+
+```
 ------
 
 ## Fork
@@ -77,5 +88,12 @@ git flow #Git-flow is a merge based solution. It doesn't rebase feature branches
 ## Status
 
 #### Git status can be used to view the status of the repository
+
+------
+
+
+## Repository
+
+#### A repository is a place Git stores all of your project files.
 
 ------
