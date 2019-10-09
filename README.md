@@ -1,4 +1,5 @@
 # IS601851MiniProject1
+![miniproject](/images/miniproject.png)
 ------
 ### Samuel Carlos & Yuanqi Jiang
 
