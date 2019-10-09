@@ -13,7 +13,7 @@
 
 ## Accessing Vi
 
- To access VI, you type `vi` followed by the name of the file you want to create. If the file your want to create doesn't exist, it will be created.
+ To access VI, you type `vi` followed by the name of the file you want to create. If the file you want to create doesn't exist, it will be created.
 
 ## Using Vi
 
