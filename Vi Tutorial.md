@@ -21,7 +21,9 @@ There are two main modes in VI, command mode and insert mode. Insert mode is use
 
 ## Command Mode
 
-When you first open VI, it will open in command mode. If you are in insert mode and you want to enter command mode, just press `Escape`. Once you are inh command mode, there are several useful comamnds you can run. They are listed in the table below with a description of what they can do.
+![VI Startup Screen](/images/VICommandMode.png)
+
+When you first open VI, it will open in command mode. If you are in insert mode and you want to enter command mode, just press `Escape`. You will know you are in command mode because any text you type will appear at the bottom left corner. Once you are inh command mode, there are several useful comamnds you can run. They are listed in the table below with a description of what they can do.
 
 Command | Description
 ------------ | -------------
