@@ -20,6 +20,10 @@
 
 Change log:
 
+Feature: New project 2 update
+@jiangyuanqi
+jiangyuanqi committed Nov 13, 2019
+
 Feature: New images
 @jiangyuanqi
 jiangyuanqi committed Oct 9, 2019
