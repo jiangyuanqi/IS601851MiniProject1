@@ -14,6 +14,8 @@
 
 [Vi Tutorial](https://github.com/jiangyuanqi/IS601851MiniProject1/blob/master/Vi%20Tutorial.md)
 
+[Project 2 updated](https://github.com/jiangyuanqi/IS601851MiniProject1/blob/master/Project2%updated.md)
+
 ---------
 
 Change log:
