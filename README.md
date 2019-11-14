@@ -5,7 +5,7 @@
 
 ### 2019 Fall
 
-### 10/6/2019
+### 11/13/2019
 ------
 
 [Git tutorial](https://github.com/jiangyuanqi/IS601851MiniProject1/blob/master/Git%20tutorial.md)
